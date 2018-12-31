@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+.inputControl{
+    display: inline-block;
+    width: 40%
+}
+.noteCard{
+    border: 1px solid lightgrey;
+    border-radius:5px ;
+    color: grey;
+    padding: 0px 15px;
+    margin: 10px 100px;
+    text-align: left
+}
+.noteText{
+    display: inline-block;
+    width:50%;
+}
+.noteAction{
+    display: inline-block;
+    width:50%;
+    text-align: right;
+}
+.editIcon, .deleteIcon, .addIcon{
+   margin-right:20px;
+   cursor: pointer
+}
